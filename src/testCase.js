@@ -20,7 +20,9 @@ class testCase {
 		var obj = JSON.parse(this.json);
 		if (undefined !== obj.requirement) {
 			return obj.requirement;
-		}
+		}else if(undefined !== array.requirement){
+			return array.requirement;
+		}	
 		return false;
 	}
 }
