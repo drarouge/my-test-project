@@ -21,7 +21,7 @@ class testCase {
 		if (undefined !== obj.requirement) {
 			return obj.requirement;
 		}
-		if (array.isArray(obj.executions)) {
+		if (Array.isArray(obj.executions)) {
 			    return obj.executions;
 		}
 		return false;
