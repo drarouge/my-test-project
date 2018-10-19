@@ -22,7 +22,7 @@ class testCase {
 			return obj.requirement;
 		}
 		if (array.isArray(obj.executions)) {
-			    return obj.requirement;
+			    return obj.executions;
 		}
 		return false;
 	}
