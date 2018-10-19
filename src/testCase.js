@@ -21,9 +21,6 @@ class testCase {
 		if (undefined !== obj.requirement) {
 			return obj.requirement;
 		}
-		if(undefined !== array.requirement){
-			return array.requirement;
-		}	
 		return false;
 	}
 }
