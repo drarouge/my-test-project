@@ -1,3 +1,10 @@
 language: node_js
 node_js:
         - "node"
+deploy:
+provider
+skip-cleanup
+github-token
+keep-history
+local-dir
+on
